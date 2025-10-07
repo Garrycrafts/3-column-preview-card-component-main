@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | 3-column preview card component</title>
+  </head>
+  <body>
+    <!-- Background container -->
+    <div
+      class="bg-Gray-100 flex min-h-screen w-screen items-center justify-center"
+    >
+      <!-- Main container -->
+      <div
+        class="mx-20 flex max-w-[896px] py-20 max-md:mx-8 max-md:w-fit max-md:flex-col"
+      >
+        <!-- Element container -->
+        <div
+          class="bg-Gold-500 h-fit min-w-1/3 p-10 pl-10 max-md:w-full max-md:rounded-t-xl min-md:rounded-l-xl"
+        >
+          <img src="/images/icon-sedans.svg" alt="" />
+          <!-- Text container -->
+          <div class="mt-5 flex w-fit flex-col pl-2 max-md:pl-0">
+            <h1
+              class="font-Big-Shoulders-Display text-Large text-Transparent-white font-medium uppercase"
+            >
+              Sedans
+            </h1>
+            <!-- button Spacer -->
+            <div class="flex flex-col gap-20">
+              <p class="font-Lexend-Deca text-Base text-Transparent-white mt-5">
+                Choose a sedan for its affordability and excellent fuel economy.
+                Ideal for cruising in the city or on your next road trip.
+              </p>
+            </div>
+          </div>
+          <button
+            class="font-Lexend-Deca hover:text-Gold-500/50 text-Gold-500 mt-20 w-fit rounded-3xl bg-white px-6 py-2 hover:scale-95 max-md:mt-5"
+          >
+            Learn More
+          </button>
+        </div>
+        <!-- Element container -->
+        <div class="bg-Cyan-800 h-fit min-w-1/3 p-10 pl-10 max-md:w-full">
+          <img src="/images/icon-suvs.svg" alt="" />
+          <!-- Text container -->
+          <div class="mt-5 flex flex-col pl-2 max-md:p-0">
+            <h1
+              class="font-Big-Shoulders-Display text-Large text-Transparent-white uppercase"
+            >
+              SUVs
+            </h1>
+            <!-- button Spacer -->
+            <div class="flex flex-col gap-20">
+              <p class="font-Lexend-Deca text-Base text-Transparent-white mt-5">
+                Take an SUV for its spacious interior, power, and versatility.
+                Perfect for your next family vacation and off-road adventures.
+              </p>
+            </div>
+          </div>
+          <button
+            class="font-Lexend-Deca text-Cyan-800 hover:text-Cyan-800/50 mt-20 w-fit rounded-3xl bg-white px-6 py-2 hover:scale-95 max-md:mt-5"
+          >
+            Learn More
+          </button>
+        </div>
+        <!-- Element container -->
+        <div
+          class="bg-Green-950 h-fit min-w-1/3 p-10 pl-10 max-md:w-full max-md:rounded-b-xl min-md:rounded-r-xl"
+        >
+          <img src="/images/icon-luxury.svg" alt="" />
+          <!-- Text container -->
+          <div class="mt-5 flex flex-col pl-2 max-md:pl-0">
+            <h1
+              class="font-Big-Shoulders-Display text-Large text-Transparent-white uppercase"
+            >
+              Luxury
+            </h1>
+            <!-- button Spacer -->
+            <div class="flex flex-col gap-20">
+              <p class="font-Lexend-Deca text-Base text-Transparent-white mt-5">
+                Cruise in the best car brands without the bloated prices. Enjoy
+                the enhanced comfort of a luxury rental and arrive in style.
+              </p>
+            </div>
+          </div>
+          <button
+            class="font-Lexend-Deca text-Green-950 hover:text-Green-950/50 mt-20 w-fit rounded-3xl bg-white px-6 py-2 hover:scale-95 max-md:mt-5"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

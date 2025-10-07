@@ -1,0 +1,25 @@
+/* Tailwind v4 */
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-md: 768px;
+  --font-Lexend-Deca: "Lexend Deca";
+  --font-Big-Shoulders-Display: "Big Shoulders";
+  --text-Base: 0.938rem;
+  --text-Large: 2.25rem;
+
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --color-Gold-500: hsl(31, 77%, 52%);
+  --color-Cyan-800: hsl(184, 100%, 22%);
+  --color-Green-950: hsl(179, 100%, 13%);
+
+  /* ### Neutral */
+  /* (paragraphs) */
+  --color-Transparent-white: hsla(0, 0%, 100%, 0.75);
+  /* (background, headings, buttons) */
+  --color-Gray-100: hsl(0, 0%, 95%);
+}
+/*  */
